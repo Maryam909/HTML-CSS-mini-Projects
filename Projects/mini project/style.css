@@ -1,0 +1,20 @@
+* {
+    background: transparent;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    border: solid white 10px;
+    display: block;
+    line-height: 1.60;
+}
+h2 {
+    color: green;
+}
+div{
+    text-align:start;
+    margin-left: 80px;
+}

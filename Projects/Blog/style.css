@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: darkgreen;
+    padding: 20px;
+}
+header{
+    background-color:rgb(233, 141, 192);
+    padding: 20px;
+}
+h3{
+    width: 83%;
+}
+h1{
+    width: 94%;
+}
+p{
+    display: flexbox;
+}

@@ -1,0 +1,42 @@
+#container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(10px,auto));
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+.card {
+    padding: 40px;
+    background: grey;
+    border-top: 5px solid transparent;
+    border-radius: 0.5rem;
+    transition: all .50s ease;
+    cursor: pointer;
+    margin: 100px;
+    box-shadow: 5px sloid black;
+    position: relative;
+}
+.card img{
+    border-radius: 0.5rem;
+    border-top: 5px solid transparent;
+    width: 100%;
+}
+.card p{
+    color: black;
+    line-height: 2rem;
+}
+.card h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: crimson;
+}
+.card:hover {
+    transform: scale(1.01) translateY(-5px);
+}
+h4 {
+    text-align: center;
+    padding: 30px;
+    background: gray;
+    margin-bottom: 0;
+}

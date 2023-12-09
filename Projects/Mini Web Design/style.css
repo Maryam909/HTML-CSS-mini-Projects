@@ -1,0 +1,116 @@
+/*Global Style */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  
+  /*Header Style*/
+  header {
+    margin:0;
+    padding: 32px 0px;
+    color: #ffffff;
+    background-color: #35424a;
+    border-bottom:#e8491d 3px solid;
+  }
+  #acme {
+    color:#e8491d;
+  }
+  header h1 {
+    float:left;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  header nav {
+    float: right;
+    padding-top: 10px;
+  }
+  li  {
+    display:inline;
+    padding-right: 25px;
+  }
+  li a {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .current a{
+    color:#e8491d;
+  }
+  a:hover{
+    color:#e8491d;
+  }
+  /*Newsletter Area Style*/
+  #newsletter {
+    padding: 32px 0;
+    background:#35424a;
+    color:#ffffff;
+  }
+  #newsletter p{
+    color: white;
+    font-size: 30px;
+    width: 65%;
+    margin-left: 22vh;
+  }
+  input{
+    width: 250px;
+    border: 0;
+    padding: 10px 0px;
+  }
+  button {
+    border: 0;
+    padding: 10px;
+    color:#ffffff;
+    background:#e8491d;
+  }
+form {
+    text-align: end;
+    margin-right: 150px;
+    padding-inline: 10px;
+}
+#main-col {
+    background:#f4f4f4;
+  }
+  .about {
+    float: left;
+    width: 65%;
+    padding: 20px 0px;
+  }
+.about h2 {
+    padding: 10px 0px;
+    font-size: 20px;
+ }
+ .about p {
+    line-height: 23px;
+    font-size: 20px;
+    padding: 10px 0px;
+ }
+ #whatwedo {
+    width: 30%;
+    float: right;
+    margin-top: 50px;
+    background-color: #35424a;
+    color: white;
+    left: 40px;
+ }
+ #whatwedo h3 {
+    font-size: 20px;
+    padding: 15px 10px;
+ }
+ #whatwedo p {
+    line-height: 23px;
+    padding: 10px 10px;
+ }
+ footer {
+    background-color: #e8491d;
+    text-align: center;
+    height: 50px;
+    color: white;
+    padding: 27px;
+    font-size: 16px;
+ }

@@ -1,0 +1,73 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    background-color: #353131;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Poppins;
+    padding: 32px;
+    display: -ms-grid;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+#gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+.card {
+    width: 200px;
+    position: relative;
+    -webkit-box-shadow: 2px black;
+            box-shadow: 2px black;
+    margin:20px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.54);
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.54);
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
+    transition: 1s all;
+    border-radius: 15px;
+}
+.card img {
+    height: 160px;
+    border-radius: 15px;
+    scale: 2.3;
+}
+.card h3 {
+    color: white;
+    background-color: transparent;
+}
+.card:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-box-shadow: 0 5px 12px black;
+            box-shadow: 0 5px 12px black;
+}
+.card:hover figcaption {
+    font-size: 20px;
+    display: -ms-grid;
+    display: grid;
+    bottom: 0;
+    left: 0;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    position: absolute;
+    background-color: transparent;
+    width: 100px;
+}
